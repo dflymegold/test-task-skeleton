@@ -9,6 +9,7 @@ class TestSkeleton
   # TestSkeleton.new.even_or_odd(2) should return "even"
   # TestSkeleton.new.even_or_odd(0) should return "even"
   # TestSkeleton.new.even_or_odd(-42) should return "even"
+  #
   def even_or_odd(number)
      if (number%2 == 0)  then
      return "Even"
